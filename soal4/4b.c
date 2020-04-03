@@ -23,7 +23,7 @@ void* factorize(void* args){
 		int t = 1;
 		for (int j = 1; j <= factorial[data->i_val][i]; ++j)
 		{
-			t *= j;
+			t += j;
 		}
 		factorial[data->i_val][i] = t; 
 	}
